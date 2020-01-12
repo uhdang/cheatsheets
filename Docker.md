@@ -20,11 +20,12 @@ By default managing, Docker requires administrator privileges. To run Docker com
 prepending `sudo` you need to add your user to `docker` group. This group is created during
 the installation of the Docker CE package. `$USER` is an environment variable that holds your username
 ```
-sudo usermod -aG docker $USER       # Add the user to docker group
 whoami                              # check username
 echo "$USER"                        # echo out $USER env variable
 groups                              # list groups members
 groups $USER                        # get a list of groups a user belongs to
+groupadd [GROUPNAME]                # Create a group called [GROUPNAME]
+sudo usermod -aG docker $USER       # Add the user to docker group
 ```
 
 Log out and log back in to refresh the group membership.
