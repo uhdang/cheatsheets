@@ -38,7 +38,7 @@ $ \l                        # list all databases in the PostgreSQL database serv
 $ \dn                       # list all schemas
 $ \df                       # list all stored procedures and functions 
 $ \dv                       # list all views
-$ \dt                       # list all tables
+$ \dt                       # list all tables (`\dt+` : plus more information on tables)
 $ \q                        # quit psql
 
 ```

@@ -1,3 +1,4 @@
+NOTE: Originally js file. If you change the extension to '.js', variable 'let regex' gets activated for further application.
 let regex;
 
 /* matching a specific string */
